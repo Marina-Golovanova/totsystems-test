@@ -1,6 +1,11 @@
 import React from "react";
-import "./app.module.scss";
+import { Layout } from "../layout/Layout";
+
+import "./app.scss";
 
 export const App: React.FC = () => {
-  return <div></div>;
+  return <>
+    <Layout />
+  </>
+    ;
 };
